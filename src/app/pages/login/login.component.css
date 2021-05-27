@@ -1,0 +1,46 @@
+.bg {
+    background-image: url("../../../assets/backgroung-equilibrium.png");
+    height: 937px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 25%;
+  }
+  
+  .logo {
+    width: 35%;
+    height: 35%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+  
+  .form-signin {
+    display: flexbox;
+    position: absolute;
+    top: 20%;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    padding: 10px;
+    /* box-shadow: 1px 5px 9px #888888; */
+    max-height: 400px;
+    width: 100%;
+    max-width: 350px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .form {
+    padding: 10px;
+  }
+  .btn {
+    width: 100%;
+  }

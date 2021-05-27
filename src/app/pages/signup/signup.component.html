@@ -1,0 +1,27 @@
+<div class="bg">
+    <div class="container">
+      <div>
+        <div class="form-signin">
+          <img class="logo" src="./../../../assets/logo.png" />
+          <form [formGroup]="form" (ngSubmit)="SignUp()" class="form">
+            <h1 class="h3 mb-3 font-weight-bold text">Sign Up</h1>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Nome" formControlName="name"/>
+              </div>
+              <div class="form-group">
+                <input type="date" class="form-control" id="dataNasc" aria-describedby="dataNascHelp" placeholder="Data de Nascimento" formControlName="dataNasc"/>
+              </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" formControlName="email"/>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="Password" formControlName="password"/>
+            </div>
+            <button type="submit" class="btn btn-danger">
+              Sign In
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
